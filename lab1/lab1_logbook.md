@@ -4,9 +4,9 @@
 
 > Input your surname on "input string" field and retrieve the integer representation of its first three characters within a single execution of the program. Copy (take a screenshot) the block diagram and the front panel of your code, and include them in your logbook
 
-![ex1_task1_1](images\ex1_task1_1.png)
+![ex1_task1_1](images/ex1_task1_1.png)
 
-![ex1_task1_1](images\ex1_task1_2.png)
+![ex1_task1_1](images/ex1_task1_2.png)
 
 
 
@@ -18,9 +18,9 @@
 >
 > Create a control for stopping the execution of the program after 1000 iterations. Set the value of "number of bins" to 10. Include the corresponding histogram in your logbook. 
 
-![ex1_task1_1](images\ex2_task1_1.png)
+![ex1_task1_1](images/ex2_task1_1.png)
 
-![ex1_task1_1](images\ex2_task1_2.png)
+![ex1_task1_1](images/ex2_task1_2.png)
 
 
 
@@ -33,6 +33,6 @@ $$
 Z=\frac{X-\mu}{\sigma}
 $$
 
-![ex1_task1_1](images\ex2_task3_1.png)
+![ex1_task1_1](images/ex2_task3_1.png)
 
-![ex1_task1_1](images\ex2_task3_2.png)
+![ex1_task1_1](images/ex2_task3_2.png)
