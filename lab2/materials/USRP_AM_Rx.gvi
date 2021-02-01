@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="03E3DECAC6EF6A90C8113492B448A05893D9712C986A786F7419ADD41272407FAE46B2E693F7460DD0323F102C66D574295DDD5DB58B3BD72F83C61D382A9893" Timestamp="1D5CC8A0E0674AD" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="84A8B6FF314C286F3729C26FB4F37AC8569440609D2ECB55351A84569F3E35046363E3F64F916770D18769D8D384AEA6A5110218535C23B5B00EA3F797CCFC66" Timestamp="1D6F899D51357E6" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -196,7 +196,7 @@
 					<p.Text>Demodulated PSD</p.Text>
 				</NodeLabel>
 				<Wire Id="296" Joints="N(1025:R0)|(725,225) N(151:Value)|(738,225)" xmlns="http://www.ni.com/PlatformFramework" />
-				<AmplitudeMeasurementsACDCAndRMSSingleShotDBL Bounds="250 150 50 50" Id="467" ResolveFailedHint="AC DC and RMS (single-shot)(1D DBL).gvi, Package: (LabVIEW NXG Analysis Basic Files, Version: 3.0.0)" Signature="@d7dd9cb2479b47aa9e6f367657beffca" Target="NI::Analysis::Measurement::AC DC and RMS (single-shot)(1D DBL).gvi">
+				<AmplitudeMeasurementsACDCAndRMSSingleShotDBL Bounds="250 150 50 50" Id="467" ResolveFailedHint="AC DC and RMS (single-shot)(1D DBL).gvi, Package: (LabVIEW NXG Analysis Basic Files, Version: 3.0.0)" Signature="@64e282c5ca594d4f9079ec84e0fee179" Target="NI::Analysis::Measurement::AC DC and RMS (single-shot)(1D DBL).gvi">
 					<p.MethodDeclaration>
 						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 							<Parameter Id="L0" Desc="signal" />
@@ -242,7 +242,7 @@
 					<Terminal DataType="@61bcfddec36d4905b347d9b53460a193" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Boolean" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
-					<Terminal DataType="@1b03d56d48c543f9b8dddc0f6736f3b0" Direction="Input" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="@b650a9a9be044703a36e460a8af7383b" Direction="Input" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Double" Direction="Input" Hotspot="35 0" Id="T2" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="@a8106957b9c74a119f0e3cfccf03e781" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Boolean" Direction="Output" Hotspot="50 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
@@ -386,7 +386,7 @@
 					</RangeLabeledDivisions>
 					<GridLines Id="177" />
 				</Axis>
-				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="135" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]175" MajorGridLines="[UIModel]176" Orientation="[SMOrientation]Vertical" Range="[IRange]-0.0012000000000000001, 0.0012000000000000001, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="135" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]175" MajorGridLines="[UIModel]176" Orientation="[SMOrientation]Vertical" Range="[IRange]-0.04, 0.04, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="175" />
 					<GridLines Id="176" />
 				</Axis>
@@ -398,13 +398,13 @@
 			<GraphTools Enabled="[bool]True" Graph="[UIModel]133" Height="[float]22" Id="140" Left="[float]94" Top="[float]903" Width="[float]148" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="141" LabelOwner="[UIModel]133" Left="[float]89" Text="[string]Demodulated signal" Top="[float]476" Width="[float]107" xmlns="http://www.ni.com/PanelCommon" />
 			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=150}" Enabled="[bool]True" Height="[float]400" Id="152" Label="[UIModel]160" Left="[float]785" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]1" Top="[float]496" Width="[float]600" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<Axis Adjuster="[RangeAdjuster]None" Id="153" IsInverted="[bool]False" Label="[string]frequency" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]156" MajorGridLines="[UIModel]180" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 24144.86921529175, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]None" Id="153" IsInverted="[bool]False" Label="[string]frequency" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]156" MajorGridLines="[UIModel]180" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 2784.7082494969745, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="156">
 						<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
 					</RangeLabeledDivisions>
 					<GridLines Id="180" />
 				</Axis>
-				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="154" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]178" MajorGridLines="[UIModel]179" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 2.5E-07, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="154" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]178" MajorGridLines="[UIModel]179" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 0.00060000000000000006, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="178" />
 					<GridLines Id="179" />
 				</Axis>
@@ -593,8 +593,8 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="d7dd9cb2479b47aa9e6f367657beffca">
-			<Attributed AttributedType="@2e8dfc1be51e454fb4fde9008f1e9069">
+		<p.TypeReference TypeId="64e282c5ca594d4f9079ec84e0fee179">
+			<Attributed AttributedType="@ff9617a680754b349d0dfbc86bf3bed5">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
@@ -616,8 +616,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="1b03d56d48c543f9b8dddc0f6736f3b0">
-			<Attributed AttributedType="@1a2056063f2d447c855ed3b953ff5793">
+		<p.TypeReference TypeId="b650a9a9be044703a36e460a8af7383b">
+			<Attributed AttributedType="@dcbbf20686c341c0b7d457485320ae53">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI::Analysis::Windows" />
 				</AttributeValues>
@@ -644,7 +644,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@f81abfbefe8948d3b4f1439ae4ed19a5">
+					<Attributed AttributedType="@5e375bbdc4904eb0be2a00065f7f2b75">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]reset" />
 						</AttributeValues>
@@ -853,9 +853,9 @@
 			</Function>
 		</p.TypeReference>
 		<p.TypeReference TypeId="8ecabeaec18245f38b485dbfc6007368">
-			<Typedef TypedefName="niUSRP Timestamp.gtype" UnderlyingType="@1b4705fb337c41c9ac1c1aca79d9f11e" />
+			<Typedef TypedefName="niUSRP Timestamp.gtype" UnderlyingType="@2b0120f889da461ea34816c91948a9dd" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="2e8dfc1be51e454fb4fde9008f1e9069">
+		<p.TypeReference TypeId="ff9617a680754b349d0dfbc86bf3bed5">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="AC DC and RMS (single-shot)(1D DBL).gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@652473addccb40e6970a5fe3894b9461">
@@ -868,7 +868,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@9fa54d7c71894aa391d110be6eeee516">
+					<Attributed AttributedType="@18505ec75a0d45aebcf5c71c7d651465">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]AC value" />
 						</AttributeValues>
@@ -894,12 +894,12 @@
 		<p.TypeReference TypeId="b9289f43095c4a93a9dbed9157980887">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Power Spectrum for 1 Chan.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@ee9cb8a3ff234ca79ec4eda5618dd280">
+					<Attributed AttributedType="@ba33347deaf24ba39302d2688652060f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]signal" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@f81abfbefe8948d3b4f1439ae4ed19a5">
+					<Attributed AttributedType="@5e375bbdc4904eb0be2a00065f7f2b75">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]dB on" />
 						</AttributeValues>
@@ -919,12 +919,12 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]restart averaging" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@1def849508954a6a93968162a9cd4eb2">
+					<Attributed AttributedType="@ce59b12418d943578e22b6dcb99efe0b">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]window type" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@509c8eba65f3480599da0c4b290cae46">
+					<Attributed AttributedType="@9cf4252ed5f549909736fc619184237b">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]window parameter" />
 						</AttributeValues>
@@ -955,7 +955,7 @@
 		<p.TypeReference TypeId="4b9838853d684e9188859838d3432b22">
 			<Typedef TypedefName="Averaging Parameters.gtype" UnderlyingType="@9caaf466fbf1477a8d1b589e1b168393" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="1a2056063f2d447c855ed3b953ff5793">
+		<p.TypeReference TypeId="dcbbf20686c341c0b7d457485320ae53">
 			<Typedef TypedefName="Window Type.gtype" UnderlyingType="UInt32" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="8be8b028f3aa4250bf0592486d8cb6de">
@@ -971,7 +971,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]signal" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@7bffb8af828040b2b579b3463f720866">
+					<Attributed AttributedType="@a1d25787800b453198a56443b7b0bad9">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]cutoff frequency" />
 						</AttributeValues>
@@ -1010,7 +1010,7 @@
 		<p.TypeReference TypeId="f80668f0fc0b4f71bd8ce62b77d8a4d0">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Error" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="f81abfbefe8948d3b4f1439ae4ed19a5">
+		<p.TypeReference TypeId="5e375bbdc4904eb0be2a00065f7f2b75">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Boolean" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="81e27810c23b48d1b95cdcb11cb4e145">
@@ -1052,7 +1052,7 @@
 		<p.TypeReference TypeId="fba3b46b05524b26947f92c7c9a765e4">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="@6317ae26c7d949a395ca51227d8be3fa" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="1b4705fb337c41c9ac1c1aca79d9f11e">
+		<p.TypeReference TypeId="2b0120f889da461ea34816c91948a9dd">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="whole seconds" DataType="UInt64" />
@@ -1066,7 +1066,7 @@
 		<p.TypeReference TypeId="8940ef10240145579dc8a4e831f9db42">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L4" DataType="Error" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="9fa54d7c71894aa391d110be6eeee516">
+		<p.TypeReference TypeId="18505ec75a0d45aebcf5c71c7d651465">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="Double" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="1c73cfdcdb7f479dae7f7b9acc933380">
@@ -1075,7 +1075,7 @@
 		<p.TypeReference TypeId="d77cb501c2d446ca97b9409bf79a1029">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R4" DataType="Error" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="ee9cb8a3ff234ca79ec4eda5618dd280">
+		<p.TypeReference TypeId="ba33347deaf24ba39302d2688652060f">
 			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="Wfm(Double)" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="045ffc3c7cc14e6e97a855ee35ce6eac">
@@ -1084,10 +1084,10 @@
 		<p.TypeReference TypeId="2c58204655164250add198ff10a43174">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="T0" DataType="Boolean" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="1def849508954a6a93968162a9cd4eb2">
-			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="T1" DataType="@1b03d56d48c543f9b8dddc0f6736f3b0" />
+		<p.TypeReference TypeId="ce59b12418d943578e22b6dcb99efe0b">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="T1" DataType="@b650a9a9be044703a36e460a8af7383b" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="509c8eba65f3480599da0c4b290cae46">
+		<p.TypeReference TypeId="9cf4252ed5f549909736fc619184237b">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="T2" DataType="Double" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="be15795e807d40a0acf659f72928578e">
@@ -1111,7 +1111,7 @@
 		<p.TypeReference TypeId="9945ac8ab320444c81e70e955e66fd80">
 			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="Double[]" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="7bffb8af828040b2b579b3463f720866">
+		<p.TypeReference TypeId="a1d25787800b453198a56443b7b0bad9">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Double" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="52e24a9437414bab92f84e5fb398458b">
